@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f8270a0.css",
+    "main.js": "/static/js/main.07e18b9f.js",
+    "static/js/453.61a2feed.chunk.js": "/static/js/453.61a2feed.chunk.js",
+    "static/media/biz.jpg": "/static/media/biz.b5c83b567d5d53689df3.jpg",
+    "static/media/mercedes5.jpg": "/static/media/mercedes5.a1ee795692049d1e14e3.jpg",
+    "static/media/mercedes8.jpg": "/static/media/mercedes8.07f29eec3b5b2b9d470d.jpg",
+    "static/media/mercedes7.jpg": "/static/media/mercedes7.541c9de5ec20b90abe05.jpg",
+    "static/media/mercedes6.jpg": "/static/media/mercedes6.c6b329e6f66800afd166.jpg",
+    "static/media/mercedes3.jpg": "/static/media/mercedes3.67a693aa259017b4520a.jpg",
+    "static/media/mercedes1.jpg": "/static/media/mercedes1.cabd19e0c2da68660c81.jpg",
+    "static/media/mercedes4.jpg": "/static/media/mercedes4.05b6097af8953ffe7242.jpg",
+    "static/media/mercedes10.jpg": "/static/media/mercedes10.2a8c0a3c61fd3ade17cf.jpg",
+    "static/media/mercedes2.jpg": "/static/media/mercedes2.d827c2492730527c09ea.jpg",
+    "static/media/mercedes9.jpg": "/static/media/mercedes9.b23555e241834bc0ddfc.jpg",
+    "static/media/mercedes11.jpg": "/static/media/mercedes11.9a8094d15a1b1f98b459.jpg",
+    "static/media/mercedes12.jpg": "/static/media/mercedes12.6c6166bb8c2e3c496e80.jpg",
+    "index.html": "/index.html",
+    "main.1f8270a0.css.map": "/static/css/main.1f8270a0.css.map",
+    "main.07e18b9f.js.map": "/static/js/main.07e18b9f.js.map",
+    "453.61a2feed.chunk.js.map": "/static/js/453.61a2feed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8270a0.css",
+    "static/js/main.07e18b9f.js"
+  ]
+}

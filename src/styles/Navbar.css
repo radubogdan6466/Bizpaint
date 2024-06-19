@@ -1,0 +1,41 @@
+/* Navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  z-index: 1000;
+  transition: background-color 0.4s ease;
+}
+
+.navbar.sticky {
+  background-color: rgba(51, 51, 51, 0.6);
+}
+
+.logo {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  text-decoration-line: overline;
+  text-decoration-color: #333;
+}
