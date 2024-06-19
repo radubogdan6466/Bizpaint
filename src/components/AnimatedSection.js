@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Zoom, Navigation, Pagination } from "swiper/modules";
+import { Zoom, Navigation } from "swiper/modules";
 import "swiper/css/zoom";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -19,20 +19,6 @@ import mercedes11 from "../assets/images/mercedes/mercedes11.jpg";
 import mercedes12 from "../assets/images/mercedes/mercedes12.jpg";
 import "../styles/AnimatedSection.css";
 
-const images = [
-  mercedes1,
-  mercedes2,
-  mercedes3,
-  mercedes4,
-  mercedes5,
-  mercedes6,
-  mercedes7,
-  mercedes8,
-  mercedes9,
-  mercedes10,
-  mercedes11,
-  mercedes12,
-];
 const ImageGallery = () => {
   return (
     <Swiper
@@ -53,62 +39,62 @@ const ImageGallery = () => {
       ))} */}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes5} />
+          <img src={mercedes5} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes2} />
+          <img src={mercedes2} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes3} />
+          <img src={mercedes3} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes4} />
+          <img src={mercedes4} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes1} />
+          <img src={mercedes1} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes6} />
+          <img src={mercedes6} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes7} />
+          <img src={mercedes7} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes8} />
+          <img src={mercedes8} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes9} />
+          <img src={mercedes9} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes10} />
+          <img src={mercedes10} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes11} />
+          <img src={mercedes11} alt="Mercedes" />
         </div>
       </SwiperSlide>{" "}
       <SwiperSlide>
         <div className="swiper-zoom-container">
-          <img src={mercedes12} />
+          <img src={mercedes12} alt="Mercedes" />
         </div>
       </SwiperSlide>
     </Swiper>
