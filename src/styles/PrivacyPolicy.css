@@ -1,0 +1,19 @@
+.privacy-policy {
+  padding-top: 80px;
+  height: 100vh;
+}
+
+.privacy-policy h1,
+.privacy-policy h2 {
+  margin-bottom: 10px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.privacy-policy p {
+  line-height: 1.6;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}

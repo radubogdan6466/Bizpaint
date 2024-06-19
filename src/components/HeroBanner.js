@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/HeroBanner.css";
 import bizImage from "../assets/images/biz.webp";
-
 const HeroBanner = () => {
   return (
     <div
