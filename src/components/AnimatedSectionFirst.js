@@ -31,39 +31,26 @@ const ImageGallery = ({ images }) => {
   );
 };
 
-const AnimatedSection = ({ title, description, images }) => {
+const AnimatedSectionFirst = ({ title, description, images }) => {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const section = sectionRef.current;
-      if (section) {
-        const rect = section.getBoundingClientRect();
-        const inView = rect.top < window.innerHeight && rect.bottom > 0;
-        if (inView) {
-          section.classList.add("animate");
-        } else {
-          section.classList.remove("animate");
-        }
-      }
-    };
+    const section = sectionRef.current;
+    section.classList.add("animate");
 
-    // Adăugăm un listener pentru event-ul de scroll
-    window.addEventListener("scroll", handleScroll);
-
-    // Ștergem listener-ul când componenta este demontată
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      section.classList.remove("animate");
     };
-  }, []); // [] asigură că efectul se activează doar la montare și se curăță la demontare
+  }, []);
 
   return (
     <div ref={sectionRef} className="animated-section">
       <h2>{title}</h2>
       <p>{description}</p>
       <ImageGallery images={images} />
+      {/* Pass the imported images array */}
     </div>
   );
 };
 
-export default AnimatedSection;
+export default AnimatedSectionFirst;

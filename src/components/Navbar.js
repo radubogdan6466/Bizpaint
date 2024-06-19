@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Outlet, Link } from "react-router-dom";
+
 import "../styles/Navbar.css";
 
 function Navbar() {
@@ -27,22 +29,38 @@ function Navbar() {
     });
   };
   return (
-    <nav className={`navbar ${isNavbarSticky ? "sticky" : ""}`}>
-      <div className="logo " onClick={scrollToTop}>
-        Bizpaint
-      </div>
-      <ul className="navLinks">
-        <li>
-          <a href="#services">Servicii</a>
-        </li>
-        <li>
-          <a href="#about">Despre</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <nav className={`navbar ${isNavbarSticky ? "sticky" : ""}`}>
+        <div className="logo " onClick={scrollToTop}>
+          <Link className="logo " to="/">
+            <h1>Bizpaint</h1>
+          </Link>
+        </div>
+        <ul className="navLinks">
+          <li>
+            <Link to="/portfolio" onClick={scrollToTop}>
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link to="/Servicii" onClick={scrollToTop}>
+              Servicii
+            </Link>
+          </li>
+          <li>
+            <Link to="/About" onClick={scrollToTop}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/Contact" onClick={scrollToTop}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <Outlet />
+    </>
   );
 }
 
