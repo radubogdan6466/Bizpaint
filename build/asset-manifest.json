@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f8270a0.css",
-    "main.js": "/static/js/main.07e18b9f.js",
+    "main.css": "/static/css/main.5e169323.css",
+    "main.js": "/static/js/main.1cfa21ff.js",
     "static/js/453.61a2feed.chunk.js": "/static/js/453.61a2feed.chunk.js",
     "static/media/biz.jpg": "/static/media/biz.b5c83b567d5d53689df3.jpg",
     "static/media/mercedes5.jpg": "/static/media/mercedes5.a1ee795692049d1e14e3.jpg",
@@ -13,16 +13,25 @@
     "static/media/mercedes4.jpg": "/static/media/mercedes4.05b6097af8953ffe7242.jpg",
     "static/media/mercedes10.jpg": "/static/media/mercedes10.2a8c0a3c61fd3ade17cf.jpg",
     "static/media/mercedes2.jpg": "/static/media/mercedes2.d827c2492730527c09ea.jpg",
+    "static/media/MercedesCLA1.jpg": "/static/media/MercedesCLA1.d10bd2eef4a3ac343f8c.jpg",
     "static/media/mercedes9.jpg": "/static/media/mercedes9.b23555e241834bc0ddfc.jpg",
+    "static/media/MercedesCLA3.jpg": "/static/media/MercedesCLA3.996dad121ebaed03cf38.jpg",
+    "static/media/MercedesCLA7.jpg": "/static/media/MercedesCLA7.695e853bffbc2b27de0a.jpg",
+    "static/media/MercedesCLA6.jpg": "/static/media/MercedesCLA6.75b5b384ed0fe0ac2311.jpg",
+    "static/media/MercedesCLA4.jpg": "/static/media/MercedesCLA4.47a2991f995b523afc71.jpg",
+    "static/media/MercedesCLA2.jpg": "/static/media/MercedesCLA2.40e3464db87f9d13a901.jpg",
     "static/media/mercedes11.jpg": "/static/media/mercedes11.9a8094d15a1b1f98b459.jpg",
     "static/media/mercedes12.jpg": "/static/media/mercedes12.6c6166bb8c2e3c496e80.jpg",
+    "static/media/MercedesCLA8.jpg": "/static/media/MercedesCLA8.a5ccbe62b7090a0676b2.jpg",
+    "static/media/MercedesCLA9.jpg": "/static/media/MercedesCLA9.62e5eac73e8463f5ccbb.jpg",
+    "static/media/MercedesCLA5.jpg": "/static/media/MercedesCLA5.5666282c1e177865c147.jpg",
     "index.html": "/index.html",
-    "main.1f8270a0.css.map": "/static/css/main.1f8270a0.css.map",
-    "main.07e18b9f.js.map": "/static/js/main.07e18b9f.js.map",
+    "main.5e169323.css.map": "/static/css/main.5e169323.css.map",
+    "main.1cfa21ff.js.map": "/static/js/main.1cfa21ff.js.map",
     "453.61a2feed.chunk.js.map": "/static/js/453.61a2feed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f8270a0.css",
-    "static/js/main.07e18b9f.js"
+    "static/css/main.5e169323.css",
+    "static/js/main.1cfa21ff.js"
   ]
 }
