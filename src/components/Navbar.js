@@ -97,11 +97,11 @@ function Navbar() {
               Contact
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/privacy-policy" onClick={closeMobileMenu}>
               Politica de Confidențialitate
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
       <Outlet />

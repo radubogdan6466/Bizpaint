@@ -1,0 +1,675 @@
+.hero-banner {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.hero-text {
+  color: #f2f2f2;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+  z-index: 2;
+  padding: 0 1rem;
+}
+
+.rectangle {
+  position: absolute;
+  width: 1200px;
+  /* height: 500px; */
+  /* border: 15px solid green; */
+  /* margin-top: 600px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content: flex-start; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.toggle-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+}
+.square {
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+  /* border: 5px solid green; */
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.color-code {
+  color: #f2f2f2;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+  z-index: 2;
+  padding: 0 1rem;
+}
+.square-letter {
+  font-size: 1rem;
+  color: black; /* Culoreați litera pentru a fi vizibilă */
+  position: absolute; /* Poziționați litera în centru */
+  top: 50%; /* Aliniați litera pe axa verticală la jumătate */
+  left: 50%; /* Aliniați litera pe axa orizontală la jumătate */
+  transform: translate(-50%, -50%); /* Centrați litera precis */
+}
+.square-1 {
+  box-shadow: 0 0 10px 5px red;
+}
+.square-2 {
+  box-shadow: 0 0 10px 5px blue;
+}
+.square-3 {
+  box-shadow: 0 0 10px 5px green;
+}
+.square-4 {
+  box-shadow: 0 0 10px 5px orange;
+}
+.square-5 {
+  box-shadow: 0 0 10px 5px purple;
+}
+.square-6 {
+  box-shadow: 0 0 10px 5px pink;
+}
+.square-7 {
+  box-shadow: 0 0 10px 5px yellow;
+}
+.square-8 {
+  box-shadow: 0 0 10px 5px cyan;
+}
+.square-9 {
+  box-shadow: 0 0 10px 5px magenta;
+}
+.square-10 {
+  box-shadow: 0 0 10px 5px lime;
+}
+.square-11 {
+  box-shadow: 0 0 10px 5px teal;
+}
+.square-12 {
+  box-shadow: 0 0 10px 5px navy;
+}
+.square-13 {
+  box-shadow: 0 0 10px 5px maroon;
+}
+.square-14 {
+  box-shadow: 0 0 10px 5px olive;
+}
+.square-15 {
+  box-shadow: 0 0 10px 5px silver;
+}
+.square-16 {
+  box-shadow: 0 0 10px 5px gray;
+}
+.square-17 {
+  box-shadow: 0 0 10px 5px black;
+}
+.square-18 {
+  box-shadow: 0 0 10px 5px brown;
+}
+.square-19 {
+  box-shadow: 0 0 10px 5px gold;
+}
+.square-20 {
+  box-shadow: 0 0 10px 5px salmon;
+}
+.square-21 {
+  box-shadow: 0 0 10px 5px coral;
+}
+.square-22 {
+  box-shadow: 0 0 10px 5px aqua;
+}
+.square-23 {
+  box-shadow: 0 0 10px 5px turquoise;
+}
+.square-24 {
+  box-shadow: 0 0 10px 5px violet;
+}
+.square-25 {
+  box-shadow: 0 0 10px 5px indigo;
+}
+.square-26 {
+  box-shadow: 0 0 10px 5px crimson;
+}
+.square-27 {
+  box-shadow: 0 0 10px 5px khaki;
+}
+.square-28 {
+  box-shadow: 0 0 10px 5px lavender;
+}
+.square-29 {
+  box-shadow: 0 0 10px 5px plum;
+}
+.square-30 {
+  box-shadow: 0 0 10px 5px peachpuff;
+}
+.square-31 {
+  box-shadow: 0 0 10px 5px seagreen;
+}
+.square-32 {
+  box-shadow: 0 0 10px 5px sienna;
+}
+.square-33 {
+  box-shadow: 0 0 10px 5px springgreen;
+}
+.square-34 {
+  box-shadow: 0 0 10px 5px steelblue;
+}
+.square-35 {
+  box-shadow: 0 0 10px 5px tan;
+}
+.square-36 {
+  box-shadow: 0 0 10px 5px thistle;
+}
+.square-37 {
+  box-shadow: 0 0 10px 5px tomato;
+}
+.square-38 {
+  box-shadow: 0 0 10px 5px wheat;
+}
+.square-39 {
+  box-shadow: 0 0 10px 5px white;
+}
+.square-40 {
+  box-shadow: 0 0 10px 5px rebeccapurple;
+}
+.square-41 {
+  box-shadow: 0 0 10px 5px red;
+}
+.square-42 {
+  box-shadow: 0 0 10px 5px blue;
+}
+.square-43 {
+  box-shadow: 0 0 10px 5px green;
+}
+.square-44 {
+  box-shadow: 0 0 10px 5px orange;
+}
+.square-45 {
+  box-shadow: 0 0 10px 5px purple;
+}
+.square-46 {
+  box-shadow: 0 0 10px 5px pink;
+}
+.square-47 {
+  box-shadow: 0 0 10px 5px yellow;
+}
+.square-48 {
+  box-shadow: 0 0 10px 5px cyan;
+}
+.square-49 {
+  box-shadow: 0 0 10px 5px magenta;
+}
+.square-50 {
+  box-shadow: 0 0 10px 5px lime;
+}
+.square-51 {
+  box-shadow: 0 0 10px 5px teal;
+}
+.square-52 {
+  box-shadow: 0 0 10px 5px navy;
+}
+.square-53 {
+  box-shadow: 0 0 10px 5px maroon;
+}
+.square-54 {
+  box-shadow: 0 0 10px 5px olive;
+}
+.square-55 {
+  box-shadow: 0 0 10px 5px silver;
+}
+.square-56 {
+  box-shadow: 0 0 10px 5px mediumblue;
+}
+.square-57 {
+  box-shadow: 0 0 10px 5px black;
+}
+.square-58 {
+  box-shadow: 0 0 10px 5px brown;
+}
+.square-59 {
+  box-shadow: 0 0 10px 5px gold;
+}
+.square-60 {
+  box-shadow: 0 0 10px 5px salmon;
+}
+.square-61 {
+  box-shadow: 0 0 10px 5px coral;
+}
+.square-62 {
+  box-shadow: 0 0 10px 5px aqua;
+}
+.square-63 {
+  box-shadow: 0 0 10px 5px turquoise;
+}
+.square-64 {
+  box-shadow: 0 0 10px 5px violet;
+}
+.square-65 {
+  box-shadow: 0 0 10px 5px indigo;
+}
+.square-66 {
+  box-shadow: 0 0 10px 5px crimson;
+}
+.square-67 {
+  box-shadow: 0 0 10px 5px khaki;
+}
+.square-68 {
+  box-shadow: 0 0 10px 5px lavender;
+}
+.square-69 {
+  box-shadow: 0 0 10px 5px plum;
+}
+.square-70 {
+  box-shadow: 0 0 10px 5px peachpuff;
+}
+.square-71 {
+  box-shadow: 0 0 10px 5px seagreen;
+}
+.square-72 {
+  box-shadow: 0 0 10px 5px sienna;
+}
+.square-73 {
+  box-shadow: 0 0 10px 5px springgreen;
+}
+.square-74 {
+  box-shadow: 0 0 10px 5px steelblue;
+}
+.square-75 {
+  box-shadow: 0 0 10px 5px tan;
+}
+.square-76 {
+  box-shadow: 0 0 10px 5px thistle;
+}
+.square-77 {
+  box-shadow: 0 0 10px 5px tomato;
+}
+.square-78 {
+  box-shadow: 0 0 10px 5px wheat;
+}
+.square-79 {
+  box-shadow: 0 0 10px 5px white;
+}
+.square-80 {
+  box-shadow: 0 0 10px 5px darkorange;
+}
+.square-81 {
+  box-shadow: 0 0 10px 5px chartreuse;
+}
+.square-82 {
+  box-shadow: 0 0 10px 5px fuchsia;
+}
+.square-83 {
+  box-shadow: 0 0 10px 5px deeppink;
+}
+.square-84 {
+  box-shadow: 0 0 10px 5px darkorchid;
+}
+.square-85 {
+  box-shadow: 0 0 10px 5px darkslateblue;
+}
+.square-86 {
+  box-shadow: 0 0 10px 5px darkviolet;
+}
+.square-87 {
+  box-shadow: 0 0 10px 5px firebrick;
+}
+.square-88 {
+  box-shadow: 0 0 10px 5px forestgreen;
+}
+.square-89 {
+  box-shadow: 0 0 10px 5px hotpink;
+}
+.square-90 {
+  box-shadow: 0 0 10px 5px indianred;
+}
+.square-91 {
+  box-shadow: 0 0 10px 5px lightcoral;
+}
+.square-92 {
+  box-shadow: 0 0 10px 5px lightsalmon;
+}
+.square-93 {
+  box-shadow: 0 0 10px 5px mediumvioletred;
+}
+.square-94 {
+  box-shadow: 0 0 10px 5px orangered;
+}
+.square-95 {
+  box-shadow: 0 0 10px 5px palevioletred;
+}
+.square-96 {
+  box-shadow: 0 0 10px 5px rosybrown;
+}
+.square-97 {
+  box-shadow: 0 0 10px 5px royalblue;
+}
+.square-98 {
+  box-shadow: 0 0 10px 5px saddlebrown;
+}
+.square-99 {
+  box-shadow: 0 0 10px 5px skyblue;
+}
+.square-100 {
+  box-shadow: 0 0 10px 5px slateblue;
+}
+.square-101 {
+  box-shadow: 0 0 10px 5px slategray;
+}
+.square-102 {
+  box-shadow: 0 0 10px 5px springgreen;
+}
+.square-103 {
+  box-shadow: 0 0 10px 5px steelblue;
+}
+.square-104 {
+  box-shadow: 0 0 10px 5px tan;
+}
+.square-105 {
+  box-shadow: 0 0 10px 5px teal;
+}
+.square-106 {
+  box-shadow: 0 0 10px 5px thistle;
+}
+.square-107 {
+  box-shadow: 0 0 10px 5px tomato;
+}
+.square-108 {
+  box-shadow: 0 0 10px 5px turquoise;
+}
+.square-109 {
+  box-shadow: 0 0 10px 5px violet;
+}
+.square-110 {
+  box-shadow: 0 0 10px 5px wheat;
+}
+.square-111 {
+  box-shadow: 0 0 10px 5px yellowgreen;
+}
+.square-112 {
+  box-shadow: 0 0 10px 5px blueviolet;
+}
+.square-113 {
+  box-shadow: 0 0 10px 5px burlywood;
+}
+.square-114 {
+  box-shadow: 0 0 10px 5px cadetblue;
+}
+.square-115 {
+  box-shadow: 0 0 10px 5px chocolate;
+}
+.square-116 {
+  box-shadow: 0 0 10px 5px coral;
+}
+.square-117 {
+  box-shadow: 0 0 10px 5px cornflowerblue;
+}
+.square-118 {
+  box-shadow: 0 0 10px 5px darkcyan;
+}
+.square-119 {
+  box-shadow: 0 0 10px 5px darkgoldenrod;
+}
+.square-120 {
+  box-shadow: 0 0 10px 5px darkkhaki;
+}
+.square-121 {
+  box-shadow: 0 0 10px 5px darkmagenta;
+}
+.square-122 {
+  box-shadow: 0 0 10px 5px darkolivegreen;
+}
+.square-123 {
+  box-shadow: 0 0 10px 5px darkred;
+}
+.square-124 {
+  box-shadow: 0 0 10px 5px darksalmon;
+}
+.square-125 {
+  box-shadow: 0 0 10px 5px darkseagreen;
+}
+.square-126 {
+  box-shadow: 0 0 10px 5px deepskyblue;
+}
+.square-127 {
+  box-shadow: 0 0 10px 5px dodgerblue;
+}
+.square-128 {
+  box-shadow: 0 0 10px 5px lightblue;
+}
+.square-129 {
+  box-shadow: 0 0 10px 5px lightgreen;
+}
+.square-130 {
+  box-shadow: 0 0 10px 5px lightpink;
+}
+.square-131 {
+  box-shadow: 0 0 10px 5px lightskyblue;
+}
+.square-132 {
+  box-shadow: 0 0 10px 5px limegreen;
+}
+.square-133 {
+  box-shadow: 0 0 10px 5px mediumaquamarine;
+}
+.square-134 {
+  box-shadow: 0 0 10px 5px mediumblue;
+}
+.square-135 {
+  box-shadow: 0 0 10px 5px mediumorchid;
+}
+.square-136 {
+  box-shadow: 0 0 10px 5px mediumpurple;
+}
+.square-137 {
+  box-shadow: 0 0 10px 5px midnightblue;
+}
+.square-138 {
+  box-shadow: 0 0 10px 5px mistyrose;
+}
+.square-139 {
+  box-shadow: 0 0 10px 5px moccasin;
+}
+.square-140 {
+  box-shadow: 0 0 10px 5px navajowhite;
+}
+.square-141 {
+  box-shadow: 0 0 10px 5px oldlace;
+}
+.square-142 {
+  box-shadow: 0 0 10px 5px olive;
+}
+.square-143 {
+  box-shadow: 0 0 10px 5px orangered;
+}
+.square-144 {
+  box-shadow: 0 0 10px 5px orchid;
+}
+.square-145 {
+  box-shadow: 0 0 10px 5px palegoldenrod;
+}
+.square-146 {
+  box-shadow: 0 0 10px 5px palegreen;
+}
+.square-147 {
+  box-shadow: 0 0 10px 5px paleturquoise;
+}
+.square-148 {
+  box-shadow: 0 0 10px 5px papayawhip;
+}
+.square-149 {
+  box-shadow: 0 0 10px 5px peru;
+}
+.square-150 {
+  box-shadow: 0 0 10px 5px powderblue;
+}
+.square-151 {
+  box-shadow: 0 0 10px 5px slategray;
+}
+.square-152 {
+  box-shadow: 0 0 10px 5px darkslategray;
+}
+.square-153 {
+  box-shadow: 0 0 10px 5px lightgray;
+}
+.square-154 {
+  box-shadow: 0 0 10px 5px silver;
+}
+.square-155 {
+  box-shadow: 0 0 10px 5px dimgray;
+}
+.square-156 {
+  box-shadow: 0 0 10px 5px gainsboro;
+}
+.square-157 {
+  box-shadow: 0 0 10px 5px ghostwhite;
+}
+.square-158 {
+  box-shadow: 0 0 10px 5px ivory;
+}
+.square-159 {
+  box-shadow: 0 0 10px 5px lavender;
+}
+.square-160 {
+  box-shadow: 0 0 10px 5px lavenderblush;
+}
+.square-161 {
+  box-shadow: 0 0 10px 5px lemonchiffon;
+}
+.square-162 {
+  box-shadow: 0 0 10px 5px lightblue;
+}
+.square-163 {
+  box-shadow: 0 0 10px 5px lightcoral;
+}
+.square-164 {
+  box-shadow: 0 0 10px 5px lightcyan;
+}
+.square-165 {
+  box-shadow: 0 0 10px 5px lightgoldenrodyellow;
+}
+.square-166 {
+  box-shadow: 0 0 10px 5px lightgray;
+}
+.square-167 {
+  box-shadow: 0 0 10px 5px lightgreen;
+}
+.square-168 {
+  box-shadow: 0 0 10px 5px lightpink;
+}
+.square-169 {
+  box-shadow: 0 0 10px 5px lightsalmon;
+}
+.square-170 {
+  box-shadow: 0 0 10px 5px lightseagreen;
+}
+.square-171 {
+  box-shadow: 0 0 10px 5px lightskyblue;
+}
+.square-172 {
+  box-shadow: 0 0 10px 5px lightslategray;
+}
+.square-173 {
+  box-shadow: 0 0 10px 5px lightsteelblue;
+}
+.square-174 {
+  box-shadow: 0 0 10px 5px lightyellow;
+}
+.square-175 {
+  box-shadow: 0 0 10px 5px linen;
+}
+.square-176 {
+  box-shadow: 0 0 10px 5px mediumaquamarine;
+}
+.square-177 {
+  box-shadow: 0 0 10px 5px mediumblue;
+}
+.square-178 {
+  box-shadow: 0 0 10px 5px mediumorchid;
+}
+.square-179 {
+  box-shadow: 0 0 10px 5px mediumpurple;
+}
+.square-180 {
+  box-shadow: 0 0 10px 5px mediumseagreen;
+}
+.square-181 {
+  box-shadow: 0 0 10px 5px mediumslateblue;
+}
+.square-182 {
+  box-shadow: 0 0 10px 5px mediumspringgreen;
+}
+.square-183 {
+  box-shadow: 0 0 10px 5px mediumturquoise;
+}
+.square-184 {
+  box-shadow: 0 0 10px 5px mediumvioletred;
+}
+.square-185 {
+  box-shadow: 0 0 10px 5px midnightblue;
+}
+.square-186 {
+  box-shadow: 0 0 10px 5px mintcream;
+}
+.square-187 {
+  box-shadow: 0 0 10px 5px mistyrose;
+}
+.square-188 {
+  box-shadow: 0 0 10px 5px moccasin;
+}
+.square-189 {
+  box-shadow: 0 0 10px 5px navajowhite;
+}
+.square-190 {
+  box-shadow: 0 0 10px 5px oldlace;
+}
+.square-191 {
+  box-shadow: 0 0 10px 5px olive;
+}
+.square-192 {
+  box-shadow: 0 0 10px 5px olivedrab;
+}
+.square-193 {
+  box-shadow: 0 0 10px 5px orange;
+}
+.square-194 {
+  box-shadow: 0 0 10px 5px orangered;
+}
+.square-195 {
+  box-shadow: 0 0 10px 5px orchid;
+}
+.square-196 {
+  box-shadow: 0 0 10px 5px palegoldenrod;
+}
+.square-197 {
+  box-shadow: 0 0 10px 5px palegreen;
+}
+.square-198 {
+  box-shadow: 0 0 10px 5px paleturquoise;
+}
+.square-199 {
+  box-shadow: 0 0 10px 5px papayawhip;
+}
+.square-200 {
+  box-shadow: 0 0 10px 5px peachpuff;
+}
